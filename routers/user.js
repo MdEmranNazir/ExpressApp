@@ -6,9 +6,9 @@ const router = express.Router();
 router.get('/all', (req, res) => {
 	res.status(200).json({
 		data: [{
-			userFristName: 'sohel123',
+			userFristName: 'Emran',
 		}, {
-			userLastName: 'user123',
+			userLastName: 'Nazir',
 		}],
 	});
 });
