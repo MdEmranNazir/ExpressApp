@@ -3,7 +3,7 @@ const express = require('express');
 const router = express.Router();
 
 // GET
-router.get('/all', (req, res) => {
+router.get('/all/users', (req, res) => {
 	res.status(200).json({
 		data: [{
 			userFristName: 'Abullha',

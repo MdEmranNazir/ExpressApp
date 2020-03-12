@@ -8,7 +8,7 @@ const routers = require('./routers/user');
 app.use(express.json());
 
 // Router
-app.use('/api/users', routers);
+app.use('/api', routers);
 
 // Port
 const PORT = process.env.PORT || 3000;
