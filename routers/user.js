@@ -11,6 +11,8 @@ router.get('/all/users', (req, res) => {
 			userLastName: 'Emran',
 		}, {
 			userEmail: 'mdemrannazir9999@gmail.com',
+		}, {
+			userSubEmail: 'emrannazir@gmail.com',
 		}],
 	});
 });
