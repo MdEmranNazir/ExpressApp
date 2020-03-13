@@ -9,6 +9,8 @@ router.get('/all/users', (req, res) => {
 			userFristName: 'Abullha',
 		}, {
 			userLastName: 'Emran',
+		}, {
+			userEmail: 'mdemrannazir9999@gmail.com',
 		}],
 	});
 });
